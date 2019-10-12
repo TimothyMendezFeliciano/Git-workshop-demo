@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-p {
+p, input{
     text-align: center;
     font-size: 24px;
 }
@@ -29,4 +29,16 @@ p {
 
 .links {
     text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.forms {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #444;
 }
