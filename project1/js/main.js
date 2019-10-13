@@ -22,7 +22,8 @@ formulario.addEventListener('submit', () => {
 
         return false;
     }
-    else if(direcion.tim() == null || direcion.tim() == 0) {
+    
+    if(direcion.tim() == null || direcion.tim() == 0) {
         alert("La direcion no es valia");
         
         return false;
