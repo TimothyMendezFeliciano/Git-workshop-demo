@@ -16,4 +16,19 @@ formulario.addEventListener('submit', () => {
     else {
         document.querySelector("#errorNombre").style.display = "none";
     }
+
+    if(apellidos.tim() == null || apellidos.tim() == 0) {
+        alert("El apellido no es valido");
+
+        return false;
+    }
+    else if(direcion.tim() == null || direcion.tim() == 0) {
+        alert("La direcion no es valia");
+        
+        return false;
+    }
+
+    console.log(nombre);
+    console.log(apellidos);
+    console.log(direcion);
 });
